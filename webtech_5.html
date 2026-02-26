@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Academic Profile</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal academic profile page using semantic HTML5">
+    <meta name="keywords" content="HTML5, Academic Profile, AIUB, Web Technologies">
+    <meta name="author" content="Student Name">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Name</h1>
+        <nav>
+            <a href="#bio">Biography</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>
+                I am a student of Computer Science and Engineering at AIUB. I am learning web technologies.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <table border="1">
+                <caption>Academic Qualifications</caption>
+
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>BSc in CSE</td>
+                        <td>AIUB</td>
+                        <td>2025</td>
+                        <td>CGPA 3.78</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Milestone College</td>
+                        <td>2022</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name"
+                       required maxlength="30"><br><br>
+
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email"
+                       required><br><br>
+
+                
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="Enter your number"
+                       pattern="[0-9]{11}"><br><br>
+
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"
+                          placeholder="Write a massage"
+                          required maxlength="200"></textarea><br><br>
+
+                
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Contact: f.n.raisa29s@gmail.com</p>
+        <p>&copy; 2026 Nower</p>
+    </footer>
+
+</body>
+</html>
